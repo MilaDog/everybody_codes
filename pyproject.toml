@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "everybody-codes"
+version = "0.1.0"
+description = "Solutions to the Everybody Codes problem sets."
+authors = ["MilaDog <daniel.ryan.sergeant@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "everybody_codes" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+regex = "^2024.11.6"
+pyright = "^1.1.389"
+ruff = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
