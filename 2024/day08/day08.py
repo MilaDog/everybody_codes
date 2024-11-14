@@ -1,4 +1,4 @@
-from _collections import deque
+from collections import deque
 from math import sqrt, ceil
 from typing import Tuple, Deque
 
@@ -16,7 +16,8 @@ def part_01() -> None:
     # A = 0.5wh
     # w = 2A/h
     width: int = 2 * tlt_blocks // int(sqrt(tlt_blocks))
-    if width % 2 == 0: width -= 1
+    if width % 2 == 0:
+        width -= 1
 
     tlt: int = missing_blocks * width
 
