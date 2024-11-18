@@ -18,12 +18,16 @@ def parse_input(file_name: str) -> List[List[int]]:
 
     """
     with open(f"{file_name}.txt", "r") as file:
-        grid: List[List[int]] = [list(map(int, list(x.strip()))) for x in
-                                 file.read().replace("#", "1").replace(".", "0").splitlines()]
+        grid: List[List[int]] = [
+            list(map(int, list(x.strip())))
+            for x in file.read().replace("#", "1").replace(".", "0").splitlines()
+        ]
     return grid
 
 
-def valid_block_to_dig(grid: List[List[int]], coords: Tuple[int, int], include_diagonals: bool = False) -> bool:
+def valid_block_to_dig(
+        grid: List[List[int]], coords: Tuple[int, int], include_diagonals: bool = False
+) -> bool:
     """
     Check if the block at the given coordinates is valid to dig. Include diagonals checking is by default False.
     A block is valid to mine if its adjacent block values are greater-than or equal to the value of the block at the given coordinate.
@@ -86,7 +90,9 @@ def solve(file_name: str) -> int:
 
         for x in range(len(grid)):
             for y in range(len(grid[x])):
-                if valid_block_to_dig(grid=grid, coords=(x, y), include_diagonals=include_diagonals):
+                if valid_block_to_dig(
+                        grid=grid, coords=(x, y), include_diagonals=include_diagonals
+                ):
                     grid[x][y] += 1
                     has_changed = True
 
