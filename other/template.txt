@@ -1,0 +1,42 @@
+from timeit import timeit
+
+from utils.timing import Timing
+
+
+def part_01() -> None:
+    """Solution to Part 1"""
+    with open("p1.txt") as file:
+        pass
+
+    tlt: int = 0
+    print(f"Part 01: {tlt}")
+
+
+def part_02() -> None:
+    """Solution to Part 2"""
+    with open("p2.txt") as file:
+        pass
+
+    tlt: int = 0
+    print(f"Part 02: {tlt}")
+
+
+def part_03() -> None:
+    """Solution to Part 3"""
+    with open("p3.txt") as file:
+        pass
+
+    tlt: int = 0
+    print(f"Part 03: {tlt}")
+
+
+def main() -> None:
+    """Entry point"""
+
+    print(Timing(timeit(part_01, number=1)).microseconds, "μs\n")
+    print(Timing(timeit(part_02, number=1)).microseconds, "μs\n")
+    print(Timing(timeit(part_03, number=1)).microseconds, "μs\n")
+
+
+if __name__ == "__main__":
+    main()
