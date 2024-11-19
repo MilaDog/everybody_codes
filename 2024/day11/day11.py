@@ -104,9 +104,9 @@ def part_03() -> None:
 def main() -> None:
     """Entry point"""
 
-    print(Timing(timeit(part_01, number=1)).microseconds, "μs\n")
-    print(Timing(timeit(part_02, number=1)).microseconds, "μs\n")
-    print(Timing(timeit(part_03, number=1)).microseconds, "μs\n")
+    print(Timing(timeit(part_01, number=1)).result(), "\n")
+    print(Timing(timeit(part_02, number=1)).result(), "\n")
+    print(Timing(timeit(part_03, number=1)).result(), "\n")
 
 
 if __name__ == "__main__":
