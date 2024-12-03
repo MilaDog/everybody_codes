@@ -1,6 +1,9 @@
 from collections import deque
 from math import sqrt, ceil
+from timeit import timeit
 from typing import Tuple, Deque
+
+from utils.timing import Timing
 
 
 def part_01() -> None:
@@ -68,7 +71,7 @@ def part_03() -> None:
     with open("p3.txt") as file:
         num_priests = int(file.read().strip())
 
-    tlt_blocks_available: int = 202_400_000_000
+    tlt_blocks_available: int = 202_400_000
     tlt_blocks_used: int = 0
 
     # Thickness: (prev_thickness * num_priests) % num_acolytes
@@ -100,7 +103,6 @@ def part_03() -> None:
         to_remove: int = (num_priests * max_width) * prev_height % num_acolytes
         tlt_blocks_used -= to_remove * ((curr[0] != 1) + 1)
 
-    print(tlt_blocks_used)
     tlt: int = abs(tlt_blocks_available - tlt_blocks_used)
 
     print(f"Part 03: {tlt}")
@@ -108,9 +110,10 @@ def part_03() -> None:
 
 def main() -> None:
     """Entry point"""
-    part_01()
-    part_02()
-    part_03()
+
+    print(Timing(timeit(part_01, number=1)).microseconds, "μs\n")
+    print(Timing(timeit(part_02, number=1)).microseconds, "μs\n")
+    print(Timing(timeit(part_03, number=1)).microseconds, "μs\n")
 
 
 if __name__ == "__main__":

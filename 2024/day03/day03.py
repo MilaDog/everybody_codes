@@ -26,7 +26,7 @@ def parse_input(file_name: str) -> List[List[int]]:
 
 
 def valid_block_to_dig(
-        grid: List[List[int]], coords: Tuple[int, int], include_diagonals: bool = False
+    grid: List[List[int]], coords: Tuple[int, int], include_diagonals: bool = False
 ) -> bool:
     """
     Check if the block at the given coordinates is valid to dig. Include diagonals checking is by default False.
@@ -91,7 +91,7 @@ def solve(file_name: str) -> int:
         for x in range(len(grid)):
             for y in range(len(grid[x])):
                 if valid_block_to_dig(
-                        grid=grid, coords=(x, y), include_diagonals=include_diagonals
+                    grid=grid, coords=(x, y), include_diagonals=include_diagonals
                 ):
                     grid[x][y] += 1
                     has_changed = True
