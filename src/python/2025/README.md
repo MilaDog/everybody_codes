@@ -8,7 +8,7 @@
 | Calendar | Name | Stars |
 |-----------------------------------------------|-----------------|------------------|----------------------|
 | [Day 01](https://everybody.codes/event/2025/quests/1) | Whispers in the Shell |  :star: :star: :star: |
-| [Day 02](https://everybody.codes/event/2025/quests/2) |||
+| [Day 02](https://everybody.codes/event/2025/quests/2) | From Complex to Clarity |:star: :star: :star: |
 | [Day 03](https://everybody.codes/event/2025/quests/3) |||
 | [Day 04](https://everybody.codes/event/2025/quests/4) |||
 | [Day 05](https://everybody.codes/event/2025/quests/5) |||
