@@ -1,20 +1,18 @@
-[tool.poetry]
+[project]
 name = "everybody-codes"
 version = "0.1.0"
 description = "Solutions to the Everybody Codes problem sets."
 authors = ["MilaDog <daniel.ryan.sergeant@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "everybody_codes" }]
+requires-python = ">=3.13"
+dependencies = [
+    "regex>=2025.11.3",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-regex = "^2024.11.6"
-pyright = "^1.1.389"
-ruff = "^0.7.3"
-pre-commit = "^4.2.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+    "pyright>=1.1.407",
+    "ruff>=0.14.10",
+]

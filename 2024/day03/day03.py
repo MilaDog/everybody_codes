@@ -1,7 +1,7 @@
 from timeit import timeit
 from typing import List, Tuple
 
-from utils.timing import Timing
+from src.timing import Timing
 
 
 def parse_input(file_name: str) -> List[List[int]]:

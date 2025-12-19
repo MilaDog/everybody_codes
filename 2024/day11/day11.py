@@ -2,7 +2,7 @@ from collections import Counter
 from timeit import timeit
 from typing import List, Dict, Counter as Counter_
 
-from utils.timing import Timing
+from src.timing import Timing
 
 
 def solve(values: Dict[str, List[str]], days: int, start: str) -> int:

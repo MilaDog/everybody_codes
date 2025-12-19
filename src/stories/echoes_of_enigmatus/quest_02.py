@@ -5,7 +5,7 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 from timeit import timeit
 
-from utils.timing import Timing
+from src.timing import Timing
 
 import re
 

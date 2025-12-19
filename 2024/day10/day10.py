@@ -1,7 +1,7 @@
 from timeit import timeit
 from typing import Set, List
 
-from utils.timing import Timing
+from src.timing import Timing
 
 
 def s(grid):

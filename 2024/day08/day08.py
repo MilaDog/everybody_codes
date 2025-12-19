@@ -3,7 +3,7 @@ from math import sqrt, ceil
 from timeit import timeit
 from typing import Tuple, Deque
 
-from utils.timing import Timing
+from src.timing import Timing
 
 
 def part_01() -> None:

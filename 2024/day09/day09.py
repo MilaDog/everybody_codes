@@ -2,7 +2,7 @@ import math
 from timeit import timeit
 from typing import List
 
-from utils.timing import Timing
+from src.timing import Timing
 
 
 def determine_minimum_beetles_for_brightness(stamps: List[int], target: int) -> int:

@@ -2,7 +2,7 @@ from collections import defaultdict, deque, Counter
 from timeit import timeit
 from typing import List, Dict, Set, Deque, Counter as Counter_
 
-from utils.timing import Timing
+from src.timing import Timing
 
 
 def parse_input(file_name: str) -> Dict[str, List[str]]:

@@ -1,6 +1,6 @@
 from timeit import timeit
 
-from utils.timing import Timing
+from src.timing import Timing
 
 import re
 
