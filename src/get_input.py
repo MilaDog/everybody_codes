@@ -6,7 +6,9 @@ from pathlib import Path
 PARSER = argparse.ArgumentParser()
 
 PARSER.add_argument("-d", "--day", help="Day of the event to get. [01, 25]")
-PARSER.add_argument("-y", "--year", help="Year of the event to get. [2015, current-year)")
+PARSER.add_argument(
+    "-y", "--year", help="Year of the event to get. [2015, current-year)"
+)
 PARSER.add_argument("-l", "--language", help="Language being used.")
 
 
@@ -23,7 +25,11 @@ def get_template(language: str) -> str:
     match language.lower():
         case "python":
             try:
-                with open(os.path.join(Path(__file__).resolve().parent, "templates/template.py")) as file:
+                with open(
+                    os.path.join(
+                        Path(__file__).resolve().parent, "templates/template.py"
+                    )
+                ) as file:
                     return file.read()
 
             except Exception:
@@ -131,8 +137,12 @@ def main() -> None:
     if invalid:
         return
 
-    target_folder: Path = create_solution_folder(language=language, day=str(day), year=str(year))
-    create_solution_file(path=target_folder, language=language, day=str(day), year=str(year))
+    target_folder: Path = create_solution_folder(
+        language=language, day=str(day), year=str(year)
+    )
+    create_solution_file(
+        path=target_folder, language=language, day=str(day), year=str(year)
+    )
     create_input_file(year=str(year), day=str(day))
 
 
