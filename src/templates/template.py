@@ -35,11 +35,17 @@ class Solution:
 
 
 if __name__ == "__main__":
-    sol1: Solution = Solution.parse("./inputs/everybody_codes/2025/03/input_p01.txt")
+    sol1: Solution = Solution.parse(
+        "./inputs/everybody_codes/%%YEAR%%/%%DAT%%/input_p01.txt"
+    )
     sol1.part01()
 
-    sol2: Solution = Solution.parse("./inputs/everybody_codes/2025/03/input_p02.txt")
+    sol2: Solution = Solution.parse(
+        "./inputs/everybody_codes/%%YEAR%%/%%DAT%%/input_p02.txt"
+    )
     sol2.part02()
 
-    sol3: Solution = Solution.parse("./inputs/everybody_codes/2025/03/input_p03.txt")
+    sol3: Solution = Solution.parse(
+        "./inputs/everybody_codes/%%YEAR%%/%%DAT%%/input_p03.txt"
+    )
     sol3.part03()
