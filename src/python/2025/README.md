@@ -13,7 +13,7 @@
 | [Day 04](https://everybody.codes/event/2025/quests/4)  | Teeth of the Wind       | :star: :star: :star: |
 | [Day 05](https://everybody.codes/event/2025/quests/5)  | Fishbone Order          | :star: :star: :star: |
 | [Day 06](https://everybody.codes/event/2025/quests/6)  | Mentorship Matrix       | :star: :star: :star: |
-| [Day 07](https://everybody.codes/event/2025/quests/7)  |                         |                      |
+| [Day 07](https://everybody.codes/event/2025/quests/7)  | Namegraph               | :star: :star: :star: |
 | [Day 08](https://everybody.codes/event/2025/quests/8)  |                         |                      |
 | [Day 09](https://everybody.codes/event/2025/quests/9)  |                         |                      |
 | [Day 10](https://everybody.codes/event/2025/quests/10) |                         |                      |
