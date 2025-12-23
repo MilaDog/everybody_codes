@@ -15,7 +15,7 @@
 | [Day 06](https://everybody.codes/event/2025/quests/6)  | Mentorship Matrix       | :star: :star: :star: |
 | [Day 07](https://everybody.codes/event/2025/quests/7)  | Namegraph               | :star: :star: :star: |
 | [Day 08](https://everybody.codes/event/2025/quests/8)  | The Art of Connection   | :star: :star: :star: |
-| [Day 09](https://everybody.codes/event/2025/quests/9)  |                         |                      |
+| [Day 09](https://everybody.codes/event/2025/quests/9)  | Encoded in the Scales   | :star: :star: :star: |
 | [Day 10](https://everybody.codes/event/2025/quests/10) |                         |                      |
 | [Day 11](https://everybody.codes/event/2025/quests/11) |                         |                      |
 | [Day 12](https://everybody.codes/event/2025/quests/12) |                         |                      |

@@ -2,12 +2,14 @@
 name = "everybody-codes"
 version = "0.1.0"
 description = "Solutions to the Everybody Codes problem sets."
-authors = ["MilaDog <daniel.ryan.sergeant@gmail.com>"]
+authors = [{name = "MilaDog", email="daniel.ryan.sergeant@gmail.com"}]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "regex>=2025.11.3",
+    "shapely>=2.1.2",
+    "hatchling>=1.28.0",
 ]
 
 [dependency-groups]
@@ -16,3 +18,10 @@ dev = [
     "pyright>=1.1.407",
     "ruff>=0.14.10",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
