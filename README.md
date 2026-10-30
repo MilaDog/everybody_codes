@@ -11,3 +11,5 @@ an experience similar to that of AoC, but with its own twists.
 | Year | Solved | Total Ducks 🐤 |
 |------|--------|----------------|
 | 2024 | 04/20  | 15/80          |
+| 2025 | -      | -              |
+| 2026 | 04/20  | 12/60          |
