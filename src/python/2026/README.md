@@ -11,8 +11,8 @@
 | [Day 02](https://everybody.codes/event/2026/quests/2)  | The Axeperiment   | :star: :star: :star: |
 | [Day 03](https://everybody.codes/event/2026/quests/3)  | The ISOlation     | :star: :star: :star: |
 | [Day 04](https://everybody.codes/event/2026/quests/4)  | The Rankening     | :star: :star: :star: |
-| [Day 05](https://everybody.codes/event/2026/quests/5)  |                   |                      |
-| [Day 06](https://everybody.codes/event/2026/quests/6)  |                   |                      |
+| [Day 05](https://everybody.codes/event/2026/quests/5)  | The Cartograffity | :star: :star:        |
+| [Day 06](https://everybody.codes/event/2026/quests/6)  | The Nullspiracy   | :star: :star: :star: |
 | [Day 07](https://everybody.codes/event/2026/quests/7)  |                   |                      |
 | [Day 08](https://everybody.codes/event/2026/quests/8)  |                   |                      |
 | [Day 09](https://everybody.codes/event/2026/quests/9)  |                   |                      |
